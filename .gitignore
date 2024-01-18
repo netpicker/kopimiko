@@ -1,0 +1,12 @@
+.coverage
+.idea
+bin/
+dist/
+lib/
+mongod
+/data/**
+venv/
+pyvenv.cfg
+ice.db
+logs
+__pycache__

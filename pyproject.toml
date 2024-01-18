@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kopimiko"
+version = "0.2.2"
+description = "Library for getting network device configuration backup."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+netmiko = "^4.2.0"
+loguru = "^0.7.2"
+# python-gssapi = "^0.6.4"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+pytest-loguru = "^0.2.0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
